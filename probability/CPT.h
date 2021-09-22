@@ -95,7 +95,6 @@ private:
     bool hasDependence;
     std::vector<ConditionalProbability<T>> cpt_table;
 
-
 public:
     static void rec_f(int pos,int n,std::vector<std::map<NodeId,Status>>& v_map,std::map<NodeId,Status> map,const std::vector<NodeId> parentsId,const std::vector<std::vector<Status>> parentsStatuses){
         if(pos>=n){
