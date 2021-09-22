@@ -8,7 +8,6 @@
 
 template <class T>
 class Graph {
-    //std::vector<Node> nodes;
     std::map<NodeId,Node<T>> nodes;
     std::vector<Arc<T>> arcs;
 public:
